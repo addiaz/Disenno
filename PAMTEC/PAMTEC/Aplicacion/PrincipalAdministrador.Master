@@ -1,0 +1,108 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PrincipalAdministrador.master.cs" Inherits="PAMTEC.Aplicacion.PrincipalAdministrador" %>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+  
+
+    <title>PAMTEC</title>
+    <meta name ="viewport" content="width= device-widtg, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/varAdministrador.css" rel="stylesheet">
+   
+
+ 
+   
+
+  </head>
+
+  <body>
+
+      <div class="container">
+          <div class="masthead">
+
+              <h3 class="text-muted">PAMTEC</h3>
+              <ul class="nav nav-justified">
+                  <li class="active"><a href="Noticiasaspx.aspx">Inicio</a></li>
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tutor<b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="ConsultarTutor.aspx">Consultar</a></li>
+                          <li><a href="AgregarTutor.aspx">Agregar</a></li>
+                          <li><a href="ActualizarTutor.aspx">Actualizar</a></li>
+                          <li><a href="EliminarTutor.aspx">Eliminar</a></li>
+                      </ul>
+                      </li>
+                  <li class="dropdown">
+                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Estudiante<b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="ConsultarEstudiante.aspx">Consultar</a></li>
+                          <li><a href="AgregarEstudiante.aspx">Agregar</a></li>
+                          <li><a href="ActualizarEstudiante.aspx">Actualizar</a></li>
+                          <li><a href="EliminarEstudiante.aspx">Eliminar</a></li>
+                           <li><a href="InformeEstudiante.aspx">Ver Informe</a></li>
+                      </ul>
+                    </li>
+                   <li class="dropdown">
+                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Curso<b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="ConsultarCurso.aspx">Ver Cursos</a></li>
+                          <li><a href="AgregarCurso.aspx">Agregar</a></li>
+                          <li><a href="ActualizarCurso.aspx">Actualizar</a></li>
+                          <li><a href="EliminarCurso.aspx">Eliminar</a></li>
+                      </ul>
+                    </li>
+                     <li class="dropdown">
+                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Grupo<b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="ConsultarGrupo.aspx">Consultar</a></li>
+                          <li><a href="AgregaGrupo.aspx">Agregar</a></li>
+                      </ul>
+                    </li>
+                   <li class="dropdown">
+                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Matricula<b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                          
+                          <li><a href="RealizarMatricula.aspx">Realizar Matricula</a></li>
+                        
+                      </ul>
+                    </li>
+                  <li class="dropdown">
+                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Archivos<b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="API.aspx">Subir Archivo</a></li>
+                      </ul>
+                    </li>
+              </ul>
+          </div>
+
+
+
+
+      </div>
+      <!-- /container -->
+
+      <script src = "https://code.jquery.com/jquery.js"></script>
+      <script src = "../js/bootstrap.js"></script>
+      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+     
+  </body>
+    
+
+</html>
+
+    
+
+
+
